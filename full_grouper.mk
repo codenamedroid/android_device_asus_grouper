@@ -25,6 +25,9 @@ $(call inherit-product, device/asus/grouper/device.mk)
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
+# Release name
+PRODUCT_RELEASE_NAME := Nexus7
+
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_grouper
 PRODUCT_DEVICE := grouper
